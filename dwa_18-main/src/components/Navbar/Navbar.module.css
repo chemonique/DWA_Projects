@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #022f40;
+  box-shadow: 0px 2.98256px 7.4564px rgb(4, 110, 143);
+  margin: 0;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #38aecc;
+  font-weight: bold;
+  font-family: "Jura", sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: #808080;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #38aecc;
+}

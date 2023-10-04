@@ -1,0 +1,30 @@
+.optionSeason {
+  text-align: center;
+}
+
+.showseasons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.image {
+  width: 220px;
+  height: 220px;
+
+  border-radius: 20%;
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+  margin: 5px;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: fit-content;
+}
