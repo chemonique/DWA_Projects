@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally Count</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace-autoloader.js"></script>
+    
+
+    <link rel="stylesheet" media="(prefers-color-scheme:light)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/dist/themes/light.css" />
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/dark.css"
+        onload="document.documentElement.classList.add('sl-theme-dark');" />
+
+    
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="./scripts.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1> <i class="fi fi-rr-tally"></i> Tally Counter </h1>
+    </header>
+
+    <main>
+        <input class="counter__value" data-key="number" readonly value="0" />
+
+        <div class="counter__action">
+
+            <sl-icon-button 
+            data-key="subtract"
+            class="counter__button" 
+            name="dash-circle">
+            </sl-icon-button>
+
+            <sl-icon-button 
+            data-key="add"
+            class="counter__button" 
+            name="plus-circle">
+            </sl-icon-button>
+
+
+        </div>
+
+            <sl-icon-button
+
+                data-key="reset"
+                class="reset-button"
+                name="arrow-clockwise">
+                
+                  
+            </sl-icon-button>
+            
+
+    </main>
+</body>
+
+</html>
